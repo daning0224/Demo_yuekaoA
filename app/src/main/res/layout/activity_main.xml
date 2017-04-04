@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bawei.demo_yuekaoa.MainActivity">
+
+    <com.bawei.demo_yuekaoa.view.MyView
+        android:id="@+id/myView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="#00ff00"
+        app:maxcolor="#ffff00"
+        app:maxradius="100dp"
+        app:mincolor="#ffffff"
+        app:minradius="50dp"
+        app:text="圆环"
+        app:textcolor="#000000" />
+
+</RelativeLayout>

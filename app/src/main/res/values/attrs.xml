@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="maxradius" format="dimension" />
+        <attr name="minradius" format="dimension" />
+        <attr name="maxcolor" format="color" />
+        <attr name="mincolor" format="color" />
+        <attr name="text" format="string" />
+        <attr name="textcolor" format="color" />
+
+    </declare-styleable>
+
+</resources>
